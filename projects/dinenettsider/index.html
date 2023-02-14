@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>The 14 Year Old Web-Designer | Luis Wenus</title>
+<meta name="keywords" content="" />
+<meta name="description" content="How I built my first company">
+<meta name="author" content="Luis Wenus">
+<link rel="canonical" href="https://luiswenus.github.io/projects/dinenettsider/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.7bfe087ae72df31787ec7a1360dd05ee246a179b51cf7a30a904b39d7f813b69.css" integrity="sha256-e/4Ieuct8xeH7HoTYN0F7iRqF5tRz3owqQSznX&#43;BO2k=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://luiswenus.github.io/images/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://luiswenus.github.io/images/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://luiswenus.github.io/images/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://luiswenus.github.io/images/apple-touch-icon.png">
+<link rel="mask-icon" href="https://luiswenus.github.io/images/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://luiswenus.github.io/" accesskey="h" title="Luis Wenus (Alt + H)">Luis Wenus</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/" title="Home"><span>Home</span></a>
+            </li>
+            <li>
+                <a href="https://luiswenus.github.io/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luiswenus.github.io/articles/" title="Articles">
+                    <span>Articles</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luiswenus.github.io/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://luiswenus.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://luiswenus.github.io/projects/">Projects</a></div>
+    <h1 class="post-title">
+      The 14 Year Old Web-Designer
+    </h1>
+    <div class="post-description">
+      How I built my first company
+    </div>
+    <div class="post-meta">3 min&nbsp;·&nbsp;Luis Wenus</div>
+  </header> 
+  <div class="post-content">
+  <p><img loading="lazy" src="/images/websitesmade.jpeg" alt="Main Picture"  />
+</p>
+<p>I grew up in a family of four kids, which already was an expensive endeavour by my parents. We also had family abroad and most extra money was spent on travel there. The mantra was always: you want money to spend, you need to earn it yourself. I was 14, and needed to make some money.</p>
+<h3 id="the-idea">The idea</h3>
+<p>I had already manifested from an early age that I wasn&rsquo;t going to work for anyone. So the only option was to do something I was good at and sell it.</p>
+<p>I was always pretty decent at design and knew my way around computers. There was also something my friends&rsquo; parents (who knew I was a PC nerd) kept asking me: can you help me create a website for x and y? The answer was I kinda could. PMF was there, I just had to get going.</p>
+<h3 id="the-setup">The setup</h3>
+<p>This was before WIX or any easy-to-use no-code website builders, so most people had no clue how websites were built. However, if you knew the basics, it was crazy easy to build static websites.</p>
+<p>My business plan was simple:</p>
+<ol>
+<li>Find people who needed web-pages.</li>
+<li>Offer pages made in less than a week for $500 (far below any competitors prices).</li>
+<li>Find free website templates online.</li>
+<li>Create a logo and put in relevant text.</li>
+<li>Buy the domain and host the website for them.</li>
+</ol>
+<p><strong>Tada! $500 made for about a day worth of work.</strong></p>
+<h3 id="execution">Execution</h3>
+<p>Number 1. was definetely the hardest part, how would I get customers? I would hustle for weeks on end searching for all kinds of businesses until I finally cracked it: contractors listed on craigslist-esque pages. They usually didn&rsquo;t have a website and it would clearly be a step up for them to get one.</p>
+<p>There still one problem, being 14 years old, my voice did not sound very grown-up. I tried everything, even looking at voice altering software. In the end, the best way was just to lower my voice a bit and sound as serious as I could. I started calling 100&rsquo;s of contractors, and to my surprise, had around a 1:20 success rate. This worked!</p>
+<p>My other problem was I somehow needed to bill these companies, which was only possible with a company of my own. Luckily, as soon as I turned 15, I could, with parental consent and an interview at the municipality, register a sole proprietorship. I remember feeling very cool, since the municipality had no clue how to do it, as I was the first one applying for it. It worked out, and I got my business regsistered: Dine Nettsider Luis Wenus (&ldquo;Your Websites Luis Wenus&rdquo;).</p>
+<h3 id="result">Result</h3>
+<p>In the end my bet of $500 per ~8h worked worked out. I made more than 20 websites for different local businesses around Norway, many of them topping google search for a long time. This gave me enough income to do whatever I wanted to during my youth.</p>
+
+  </div>
+
+  <footer class="post-footer">
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span> 
+      
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

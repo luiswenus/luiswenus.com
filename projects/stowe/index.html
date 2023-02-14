@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Airbnb for Storage | Luis Wenus</title>
+<meta name="keywords" content="" />
+<meta name="description" content="First YC interview and moonshot startup">
+<meta name="author" content="Luis Wenus">
+<link rel="canonical" href="https://luiswenus.github.io/projects/stowe/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.7bfe087ae72df31787ec7a1360dd05ee246a179b51cf7a30a904b39d7f813b69.css" integrity="sha256-e/4Ieuct8xeH7HoTYN0F7iRqF5tRz3owqQSznX&#43;BO2k=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://luiswenus.github.io/images/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://luiswenus.github.io/images/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://luiswenus.github.io/images/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://luiswenus.github.io/images/apple-touch-icon.png">
+<link rel="mask-icon" href="https://luiswenus.github.io/images/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://luiswenus.github.io/" accesskey="h" title="Luis Wenus (Alt + H)">Luis Wenus</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/" title="Home"><span>Home</span></a>
+            </li>
+            <li>
+                <a href="https://luiswenus.github.io/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luiswenus.github.io/articles/" title="Articles">
+                    <span>Articles</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luiswenus.github.io/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://luiswenus.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://luiswenus.github.io/projects/">Projects</a></div>
+    <h1 class="post-title">
+      Airbnb for Storage
+    </h1>
+    <div class="post-description">
+      First YC interview and moonshot startup
+    </div>
+    <div class="post-meta">5 min&nbsp;·&nbsp;Luis Wenus</div>
+  </header> 
+  <div class="post-content">
+  <p>After finishing my <a href="../tourdeafrica">Africa trip</a>, I had to go to university. With US universities being too expensive, the UK seemed like a good compromise. I ended up getting an offer from Imperial College London to study Mechanical Engineering, after flying from Barcelona to London to conduct my interview, already on my way driving to South Africa. I was thinking much more about the Africa trip than Mechanical Engineering at that time, so I&rsquo;m glad I got in, and somehow even got a scholarship covering my tuition.</p>
+<h3 id="the-idea">The idea</h3>
+<p>During my first year I lived in dorms, and every summer, everyone had to move completely out of their dorm room. Being an international student in London, this meant nowhere to store my stuff. Self-storage was super expensive, but everyone had to get it. The thing that baffled me was everyone in later years lived in all-year flats and had loads of place in their houses.</p>
+<p>This made me think that there had to be a better solution. This is how Stowe was born. The idea was simple: build a platform to let people who needed storage space rent with anyone who has space in their house.</p>
+<h3 id="execution">Execution</h3>
+<p>As I had learnt in my previous projects, always default to action. I had joined about every possible entrepreneurship club at the University, and ended up being heavily involved in the Imperial Entrepreneurs sociaty (and later became president there). Through this I met some truly impressive people, one of them being my co-founder Shrav.</p>
+<p>We got together and started building right away.After a few weeks we had an MVP up and running, and started testing it at Oxford University. Being hustlers, we would just put up flyers everywhere, infiltrate every facebook group and get people to know what Stowe was. Within a few days we had more than 60 locations in the Oxford region alone. People already started storing stuff and we were off to a great start.</p>
+<h3 id="yc-interview">YC Interview</h3>
+<p><img loading="lazy" src="/images/ycombinator.jpeg" alt="Ycombinator"  />
+</p>
+<p>Having only worked on the projects for some months, and being first-time founders looking for more support, we decided to already apply to YC to get our feet wet. We got an invite and were flown out to SF. The interview was one of the most stressful things I&rsquo;ve done in my entire life. We were bombarded with questions for 10 minutes straight, only to hear at the end one of the partners shouting at us: &ldquo;this idea doesn&rsquo;t work&rdquo;. We had heard these things were rough so we kept our head high. Then waited for the dreaded call or email. If you get a call you&rsquo;re in, if you get an email you&rsquo;re out. We got the email.</p>
+<p>Of course the best thing about it * irony * was we had to stay until the end of the week in case we got it and had to be there for the kick-off.</p>
+<p>Things like this are always harsh, but on the bright side, we got a YC interview on an idea we had worked on for like 3-4 months alongside university.</p>
+<h2 id="onwards">Onwards</h2>
+<p>As you should, we continued building and started looking at other places to get funding and build out our team.</p>
+<p>We started getting interest from different VC&rsquo;s, pitched to dozens of them, and even got a few term sheets. Most of them at lower valuations than YC at the time, so we turned them down and decided to get some more traction first.</p>
+<h2 id="covid">Covid</h2>
+<p>Right after this, covid came around. Of course not knowing that this would be a two-year thing, we saw this as a huge opportunity. Everyone had to move out of their dorms ASAP, and people needed a place to store their stuff.</p>
+<p>My co-founder was doing his masters at Harvard at that time. To get the word out, we solved the supply-side as quickly as possible by reaching out to some friends and getting some spaces from craigslist. For the demand side, we got access to the different student house websites at Harvard, and basically scraped all student emails. In a non-perfect marketing stunt we sent out emails to a large percentage of all Harvard College students. We got a tonne of visitors on the page. But the problem: people were extremely stressed, and would pay anything for something that just worked, in a situation like that people weren&rsquo;t ready to try something new or save money.</p>
+<p><img loading="lazy" src="/images/harvard.jpeg" alt="Harvard Picture"  />
+</p>
+<h2 id="the-next-steps">The next steps</h2>
+<p>Even with this, we were ready to continue trying, we had seen it work so well in Oxford (UK). At the time we were also talking to another early-stage startup: <a href="https://worldcoin.org">Sam Altman&rsquo;s Worldcoin</a>. My co-founder knew someone who was previously at Imperial who was on the founding team there. At this time, they had barely started out, and were around 5 people on the team. Being able to join a project this early with such a moonshot idea kind of went above anything else. While I was passionate about Stowe, we had no investments, so no obligations t investors, and it made sense to put it on hold while there was a global pandemic, and we could figure things out. I ended up dropping out of university to join Worldcoin, and the rest is history.</p>
+<p>The Worldcoin Story <a href="../worldcoin">here</a>.</p>
+
+  </div>
+
+  <footer class="post-footer">
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span> 
+      
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
