@@ -11,7 +11,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://luiswenus.com/projects/worldcoin/</guid>
-      <description>Will write about this soon ..</description>
+      <description>Will write about this soon&amp;hellip;</description>
     </item>
     
     <item>
@@ -44,6 +44,18 @@ It had to cost less than $5k It had to be to countries no one goes to, so I&amp;
     </item>
     
     <item>
+      <title>Advice For Joining a Startup</title>
+      <link>https://luiswenus.com/articles/joiningastartup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://luiswenus.com/articles/joiningastartup/</guid>
+      <description>#Advice for joining a startup
+I’ve recently been asked this a few times and thought I’d write down my thoughts.
+Famously Sam Altman said one of the best things you can do as an ambitious 19-year-old is join a startup on “breakaway trajectory”.
+I personally had my own start-up, before I then joined a startup at 20, worked there for 3 years, and now at 24 doing my own start-up again.</description>
+    </item>
+    
+    <item>
       <title>The 14 Year Old Web-Designer</title>
       <link>https://luiswenus.com/projects/dinenettsider/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -61,15 +73,6 @@ The idea I had already manifested from an early age that I wasn&amp;rsquo;t goin
       <guid>https://luiswenus.com/projects/randomstuffibuilt/</guid>
       <description>To those unfamiliar, the title is a twist on the title of one of my favorite books: &amp;ldquo;Surely you&amp;rsquo;re joking, Mr. Feynman!&amp;rdquo;. The book is a collection of excerpts from the famous physicist Richard Feynman&amp;rsquo;s life and mostly talks about experiments and things Feynman did by simply being curious and doing the things he found fun and interesting.
 The start of the book about his youth resonates a lot with me, and by just being curious, I&amp;rsquo;ve done everything from building bombs to making my own snow machine.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://luiswenus.com/projects/newpagetest/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://luiswenus.com/projects/newpagetest/</guid>
-      <description></description>
     </item>
     
   </channel>
